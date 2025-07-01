@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="calculator">
+  <input type="text" id="display" readonly inputmode="numeric" />
+
+  <!-- Top functions -->
+  <div class="row">
+    <button class="btn" data-value="(">(</button>
+    <button class="btn" data-value=")">)</button>
+    <button class="btn" id="sqrt">√</button>
+    <button class="btn" id="square">x²</button>
+    <button class="btn" data-value="%">%</button>
+  </div>
+
+  <!-- Operators row -->
+  <div class="row">
+    <button class="btn operator" data-value="+">+</button>
+    <button class="btn operator" data-value="-">−</button>
+    <button class="btn operator" data-value="*">×</button>
+    <button class="btn operator" data-value="/">÷</button>
+  </div>
+
+  <!-- Numbers and equals -->
+  <div class="grid">
+    <button class="btn" data-value="7">7</button>
+    <button class="btn" data-value="8">8</button>
+    <button class="btn" data-value="9">9</button>
+    <button class="btn" data-value="4">4</button>
+    <button class="btn" data-value="5">5</button>
+    <button class="btn" data-value="6">6</button>
+    <button class="btn" data-value="1">1</button>
+    <button class="btn" data-value="2">2</button>
+    <button class="btn" data-value="3">3</button>
+    <button class="btn" data-value="0">0</button>
+    <button class="btn" data-value=".">.</button>
+    <button class="btn" id="equals">=</button>
+    <button class="btn" id="clear">C</button>
+    <button class="btn" id="backspace">⌫</button>
+  </div>
+
+  <!-- History section -->
+  <div id="history">
+    <strong>History:</strong><br>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
