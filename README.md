@@ -1,2 +1,2 @@
 # SCT_WD_2
-Calculator Web Application
+I have developed a responsive calculator web application using HTML, CSS, and JavaScript as my second task in the web development internship. The calculator works on both desktop and mobile devices. It allows users to perform basic mathematical operations and includes features like square, square root, percentage, and calculation history. I used HTML to structure the layout, CSS to style the buttons and display, and JavaScript to handle the logic and interactivity, such as evaluating expressions, updating the display, and storing the history of calculations.
